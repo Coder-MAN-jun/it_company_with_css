@@ -1,0 +1,71 @@
+/** Сбрасываем все отступы, чтобы во всех браузерах отступы всех элементов были 
+ ** одинаковые */
+*  *{
+	margin: 0;
+	padding: 0;
+}
+
+/* Настраиваем стили для всей старницы: семейство шрифтов, размер шрифтов и
+* цвет текста */
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	color: 1746A2;
+	/* font-family: Veranda, Geneva, sans-serif;
+	font-size: 16px;
+	color: #404040; */
+}
+/* В div с классом у нас завёрнуто всё содержимое страницы. Добавляем 
+* отступы от всех границ окна */
+.wrapper {
+	margin: 2em 40px;
+}
+/* Настраиваем размер текста и нижний отступ для заголовков.
+* 
+* Обратите внимание, что мы указываем размеры для в em - относительная единица 
+* равная текущему размеру шрифта. Это удобно, т.к можно сразу менять размер 
+* шрифтов на всей странице (попробуйте заменить font-size 16px у body на 18px или 
+* 12px */
+.background {
+	background-image: url("ice.gif");
+    background-repeat: no-repeat;
+}
+.title {
+	background: pink;
+	font-family: Black Square;
+	color: blue;
+	font-size: 2.4em;
+	margin-bottom: .4em;
+}
+.title_small {
+	font-family: Cursive;
+	color: 00ABB3;
+	font-size: 1.6em;
+	margin-bottom: 4em;
+}
+.images {
+    border: 20px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-top: 10px;
+    margin-right: 10px; /* Отступ справа */
+    margin-left: 10px;
+    margin-bottom: 10px; /* Отступ снизу */
+}
+.text {
+	font-family: 'Kolker Brush', cursive;
+	border: 4px double black;
+	color: greenyellow;
+	background: orangered;
+	padding: 10px;
+}
+.text_2 {
+	font-family: 'Oswald', sans-serif;
+	border: 5px solid #55c5e9;
+	background: coral;
+	padding: 15px;
+}
+.link {
+	color: blueviolet;
+	margin-bottom: 30px;
+}
